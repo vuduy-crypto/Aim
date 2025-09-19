@@ -8,21 +8,21 @@ if not syn or not protectgui then
 end
 
 local SilentAimSettings = {
-    Enabled = false,
+    Enabled = true,
     
     ClassName = "Universal Silent Aim - Averiias, Stefanuk12, xaxa",
     ToggleKey = "RightAlt",
     
-    TeamCheck = false,
-    VisibleCheck = false, 
-    TargetPart = "HumanoidRootPart",
+    TeamCheck = true,
+    VisibleCheck = true, 
+    TargetPart = "Head",
     SilentAimMethod = "Raycast",
     
-    FOVRadius = 130,
-    FOVVisible = false,
-    ShowSilentAimTarget = false, 
+    FOVRadius = 180,
+    FOVVisible = true,
+    ShowSilentAimTarget = true, 
     
-    MouseHitPrediction = false,
+    MouseHitPrediction = true,
     MouseHitPredictionAmount = 0.165,
     HitChance = 100
 }
